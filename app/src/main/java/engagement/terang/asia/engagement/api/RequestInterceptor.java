@@ -11,7 +11,7 @@ import okhttp3.Response;
 public class RequestInterceptor implements Interceptor {
     private Context context;
 
-    public RequestInterceptor(Context context) {
+    RequestInterceptor(Context context) {
         this.context = context;
     }
 
